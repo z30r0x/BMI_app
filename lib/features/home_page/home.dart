@@ -17,18 +17,26 @@ class HomePage extends StatelessWidget {
             MainText(),
             SizedBox(height: 30),
             Text('Please choose your gender', style: TextStyle(fontSize: 24)),
-            Padding(
-              padding: const EdgeInsets.all(30.0),
-              child: Container(
-                decoration: BoxDecoration(
-                  color: AppColors.maleCardColor,
-                  borderRadius: BorderRadius.circular(15),
+            TextButton(
+              onPressed: () {},
+              child: Padding(
+                padding: const EdgeInsets.only(
+                  top: 30.0,
+                  bottom: 30.0,
+                  right: 10,
+                  left: 10,
                 ),
-                height: 190,
-                width: 390,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [Text('Male'), Image.asset(Images.male)],
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: AppColors.maleCardColor,
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                  height: 190,
+                  width: 390,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [Text('Male'), Image.asset(Images.male)],
+                  ),
                 ),
               ),
             ),
