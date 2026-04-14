@@ -1,11 +1,9 @@
-# BMI Calculator
-
 # BMI Calculator App
 
 <p align="center">
   <table align="center">
     <tr>
-      <td><img src="Images/bmi.png" width="300" height="300" style="margin: 10px;"></td>
+      <td><img src="Images/bmi.png" width="400" height="400" "></td>
     </tr>
   </table>
 </p>
