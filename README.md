@@ -5,7 +5,7 @@
 <p align="center">
   <table align="center">
     <tr>
-      <td><img src="https://github.com/your-username/bmi-calculator/blob/main/images/home.jpeg" width="200" height="400" style="margin: 10px;"></td>
+      <td><img src="Images/bmi.png" width="300" height="300" style="margin: 10px;"></td>
     </tr>
   </table>
 </p>
